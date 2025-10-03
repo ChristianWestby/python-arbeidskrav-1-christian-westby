@@ -22,7 +22,7 @@ def sorter_filer():
     for navn in os.listdir(src_dir):
         kilde = os.path.join(src_dir, navn)
         if not os.path.isfile(kilde):
-            continue  # hopper over mapper
+            continue 
 
         _, ext = os.path.splitext(navn)
         ext = ext.lower()
