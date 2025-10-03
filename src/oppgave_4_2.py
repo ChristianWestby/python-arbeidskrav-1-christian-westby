@@ -39,5 +39,7 @@ def sorter_filer():
         ant = len(os.listdir(os.path.join(dst_dir, mappenavn)))
         print(f" - {mappenavn}: {ant} filer")
 
+
+#Programstart
 if __name__ == "__main__":
     sorter_filer()

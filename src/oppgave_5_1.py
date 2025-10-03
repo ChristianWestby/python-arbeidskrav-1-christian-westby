@@ -12,5 +12,6 @@ def summer_forlengelser(filnavn):
                 continue
     print("Total antall forlengede dager:", total)
 
+#Programstart
 if __name__ == "__main__":
     summer_forlengelser("src/bokutlaan.csv")

@@ -2,7 +2,7 @@
 from datetime import datetime
 
 def sjekk_gyldig_dato():
-    dato_str = input("Skriv inn en dato (dd/mm/yyyy): ") #Hvorfor er det nødvendig med mellomrom og så "), Hva skal være i mellomrommet?
+    dato_str = input("Skriv inn en dato (dd/mm/yyyy): ") 
     
     try:
         dato = datetime.strptime(dato_str, "%d/%m/%Y")
@@ -20,4 +20,3 @@ if __name__ == "__main__":
 
 
 
-# Skal det her være en if statement ift til å ha muligheten til å skrive inn en ny dato?

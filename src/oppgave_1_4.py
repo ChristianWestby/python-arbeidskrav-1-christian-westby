@@ -1,6 +1,6 @@
 def bytt_plass_på_to_elementer_i_liste():
-    fruits = ["eple", "banan", "kiwi", "druer", "appelsin"]
-    print(f"Opprinnelig liste: {fruits}")
+    frukt = ["eple", "banan", "kiwi", "druer", "appelsin"]
+    print(f"Opprinnelig liste: {frukt}")
     
     try:
         index1 = int(input("Skriv inn plass nr til den første frukten du vill flytte: "))
@@ -12,8 +12,8 @@ def bytt_plass_på_to_elementer_i_liste():
             return
 
         
-        fruits[index1], fruits[index2] = fruits[index2], fruits[index1]
-        print (f"Oppdatert liste: {fruits}")
+        frukt[index1], frukt[index2] = frukt[index2], frukt[index1]
+        print (f"Oppdatert liste: {frukt}")
   
     except ValueError:
         print("ugyldig input. Du må skrive inn heltall som indexser.")

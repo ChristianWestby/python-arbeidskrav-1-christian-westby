@@ -1,5 +1,3 @@
-# src/oppgave_1_1.py
-
 def summer_til_tall():
     try:
         tall = int(input("Skriv inn et positivt heltall: "))

@@ -21,6 +21,6 @@ def sjekk_om_ipv4_adresse_er_gyldig(ip_adresse):
 if __name__ == "__main__":
     ip = input("Skriv inn en IPv4-adresse: ")
     if sjekk_om_ipv4_adresse_er_gyldig(ip):
-        print(f"{ip} er en gyldig IPv4-adresse ✅")
+        print(f"{ip} er en gyldig IPv4-adresse")
     else:
-        print(f"{ip} er en ugyldig IPv4-adresse ❌")
+        print(f"{ip} er en ugyldig IPv4-adresse")

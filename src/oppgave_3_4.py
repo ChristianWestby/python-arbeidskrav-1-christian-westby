@@ -13,7 +13,7 @@ def test_funksjon(funksjon, args, forventet):
 def legg_sammen_disse_tallene(a, b):
     return a + b
 
-
+#Programstart
 if __name__ == "__main__":
     test_funksjon(legg_sammen_disse_tallene, (2, 3), 5)  
     test_funksjon(legg_sammen_disse_tallene, (2, 4), 8)  

@@ -16,5 +16,7 @@ def beregn_boker_per_sjanger(filnavn):
     for sjanger, antall in teller.items():
         print(f" - {sjanger}: {antall}")
 
+
+#Programstart
 if __name__ == "__main__":
     beregn_boker_per_sjanger("src/bokutlaan.csv")

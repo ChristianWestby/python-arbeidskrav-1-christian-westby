@@ -12,6 +12,7 @@ def finn_første_oddetall_i_listen():
         if tall % 2 != 0:
             print(f"Første oddetall i listen er: {tall}")
             return
+
 #Programstart
 if __name__ == "__main__":
     finn_første_partall_i_liste()

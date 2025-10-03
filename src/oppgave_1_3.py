@@ -1,5 +1,3 @@
-# src/oppgave_1_3.py
-
 def vis_multiplikasjonstabell():
     try:
         tall = int(input("Skriv inn et tall for å se multiplikasjonstabellen (1-10): "))
